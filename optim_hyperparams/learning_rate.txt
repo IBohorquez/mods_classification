@@ -1,0 +1,2 @@
+learning_rate_min	learning_rate_max	learning_rate_range
+1e-5	1e-2	[1e-5, 1e-4, 1e-3, 1e-2]

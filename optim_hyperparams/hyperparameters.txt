@@ -1,0 +1,7 @@
+for_optimization	mode	base_model	optimizer	loss_func	metric	dataset	test_size	val_size	random_state	direction	n_trials	n_jobs	n_epochs	batch_size	hidden_layers	neurons_per_layer	learning_rate	best_value	best_trial_number	time
+n_epochs, batch_size, hidden_layers, neurons_per_layer, learning_rate	binary_pos_neg	vgg16	AdamW	CrossEntropyLoss	Accuracy	val	0.2	0.25	None	maximize	50	1	50.0	32.0	4.0	32.0	0.01	1.0	15.0	54.55 hours
+n_epochs, batch_size, hidden_layers, neurons_per_layer, learning_rate	binary_7_9	vgg16	AdamW	CrossEntropyLoss	Accuracy	val	0.2	0.25	None	maximize	50	1	100.0	16.0	3.0	128.0	0.001	1.0	0.0	1.32 days
+n_epochs, batch_size, hidden_layers, neurons_per_layer, learning_rate	multiclass_neg_7_9	vgg16	AdamW	CrossEntropyLoss	Accuracy	val	0.2	0.25	None	maximize	50	1	100.0	16.0	2.0	16.0	0.0001	1.0	6.0	2.35 days
+n_epochs, batch_size, hidden_layers, neurons_per_layer, learning_rate	binary_pos_neg	vgg16_bn	AdamW	CrossEntropyLoss	Accuracy	val	0.2	0.25	None	maximize	50	1	80.0	32.0	1.0	64.0	0.001	1.0	7.0	2.37 days
+n_epochs, batch_size, hidden_layers, neurons_per_layer, learning_rate	binary_7_9	vgg16_bn	AdamW	CrossEntropyLoss	Accuracy	val	0.2	0.25	None	maximize	50	1	50.0	16.0	3.0	32.0	0.001	1.0	0.0	1.16 days
+n_epochs, batch_size, hidden_layers, neurons_per_layer, learning_rate	multiclass_neg_7_9	vgg16_bn	AdamW	CrossEntropyLoss	Accuracy	val	0.2	0.25	None	maximize	50	1	50	32	2	64	1e-05	1.0	40	2.55 days

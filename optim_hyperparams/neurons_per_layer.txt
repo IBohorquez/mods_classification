@@ -1,0 +1,2 @@
+neurons_per_layer_min	neurons_per_layer_max	neurons_per_layer_step	neurons_per_layer_range
+16	512	16	[16, 32, 64, 128, 256, 512]
